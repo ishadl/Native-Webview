@@ -1,0 +1,19 @@
+{
+  "name": "@adl/webview-native",
+  "version": "1.0.0",
+  "description": "communivation between native app and webview",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "keywords": [
+    "adl"
+  ],
+  "author": "ishara",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
